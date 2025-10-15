@@ -1,5 +1,4 @@
 sudo apt update
-sudo apt -y upgrade
 
 sudo apt -y install bind9 bind9utils bind9-doc dnsutils
 

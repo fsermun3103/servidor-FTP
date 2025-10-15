@@ -1,0 +1,12 @@
+$TTL 86400
+@   IN  SOA debian.paco.test. admin.paco.test. (
+        1
+        3600
+        1800
+        604800
+        86400)
+;
+@       IN NS debian.paco.test.
+@       IN A  192.168.56.10
+@       IN A  192.168.56.10
+debian.paco.test.   IN A  192.168.56.10
