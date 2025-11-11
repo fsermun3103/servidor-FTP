@@ -17,4 +17,14 @@
 ## Zona para la resolución inversa
 ![Creación del archivo de zona inversa](/doc/paco.com.rev.png)
 
-## prueba commit4
+#### ftp.cica.es me da error cuando intento conectarme desde un ftp gráfico.
+#### De modo que seguiré la práctica desde un cmd
+
+## Descarga del archivo check desde ftp.cica.es
+![Descarga del archivo check desde ftp.cica.es](/doc/ftp.cica.es.png)
+#### He tenido que realizar estos pasos desde un powershell, pero igualmente
+#### he podido descargar el archivo check.
+#### Pero no se puede subir el archivo datos1.txt por falta de permisos.
+
+## Así ha quedado el directorio pruebasFTP
+![Directorio pruebasFTP](doc/pruebasFTP.png)
