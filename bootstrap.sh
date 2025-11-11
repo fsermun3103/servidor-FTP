@@ -51,6 +51,14 @@ for user in luis maria miguel; do
     sudo chmod 644 /home/$user/uploads/prueba_$user.txt
 done
 
+sudo mkdir -p /etc/ssl/certs
+sudo openssl req -x509 -nodes -days 365 \
+  -newkey rsa:2048 \
+  -keyout /etc/ssl/certs/paco.com.pem \
+  -out /etc/ssl/certs/paco.com.pem \
+  -subj "/C=ES/ST=Andalucia/L=Granada/O=MiEmpresa/OU=IT/CN=paco.com"
+sudo chmod 600 /etc/ssl/certs/paco.com.pem
+
 sudo systemctl enable vsftpd
 sudo systemctl restart vsftpd
 sudo systemctl status vsftpd
