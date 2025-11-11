@@ -28,3 +28,33 @@
 
 ## Así ha quedado el directorio pruebasFTP
 ![Directorio pruebasFTP](doc/pruebasFTP.png)
+
+## Instalo vsftpd en en el servidor desde bootstrap.sh
+![Instalacion vsftpd](doc/instalacion-ftp.png)
+
+## Compruebo que se ha creado el usuario ftp
+![Usuario ftp](doc/usuario-ftp.png)
+
+## Compruebo el propietario root y el grupo ftp
+![Propietario y grupo](doc/comprobacion-propietario-grupo.png)
+
+## Miro la lista de usuarios no permitidos
+![Usuarios no permitidos](doc/usuarios-nopermitidos.png)
+
+## Compruebo que el servidor esta iniciado y en ejecución
+![Servidor iniciado y en ejecución](doc/servidor-iniciado.png)
+
+## Compruebo que el servidor esta escuchando el puerto 21
+![Servidor puerto 21](doc/puerto21.png)
+
+## Creo una copia de seguridad
+![Copia de seguridad](doc/copia-seguridad.png)
+
+## Creo los nuevos usuarios
+![Creación de usuarios](doc/usuarios.png)
+
+## Asigno las contraseñas de cada usuario
+![Asignación de contraseñas](doc/contraseñas.png)
+
+## Creo los ficheros de prueba
+![Creación de ficheros de prueba](doc/ficheros-prueba.png)

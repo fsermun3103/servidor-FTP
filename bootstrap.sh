@@ -1,6 +1,8 @@
 sudo apt update
 
 sudo apt -y install bind9 bind9utils bind9-doc dnsutils
+sudo apt install ftp -y
+sudo apt install vsftpd -y
 
 cp /vagrant/config/named.conf.options /etc/bind/
 cp /vagrant/config/named.conf.local /etc/bind/
